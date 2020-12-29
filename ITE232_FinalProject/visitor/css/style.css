@@ -1,0 +1,453 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: white; */
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+  url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-031.jpg');
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.nav-item a {
+    position: relative;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;   
+}
+.navbar-brand {
+    position: relative;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bolder;   
+    text-transform: uppercase;
+}
+#intro {
+  padding-top: 150px;
+  height: 100vh;
+}
+#aboutMe{
+  padding-top: 70px;
+  height: 100vh;
+}
+#hotIssues{
+  padding-top: 70px;
+  height: 100vh;
+}
+#studentsHighlight{
+  padding-top: 70px;
+  height: 100vh;
+}
+#textIntro {
+  position: relative;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#textAboutMe  {
+  position: relative;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;   
+}
+#textHotIssues {
+  position: relative;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#textStudentsHighlight{
+  position: relative;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+  #buttonSelection a{
+    display: flex;
+    padding: 10px;
+    margin-top: 0.5rem;
+  }
+  #getInTouchAboutMe {
+    margin-bottom: 1rem;
+  }
+  #mirror {
+  background-color: rgba(255,255,255,0.7);
+  position: relative;
+  height: 100px;
+  width: 100%;
+  padding: 20px 0px;
+  } 
+}
+@media only screen and (min-width: 360px) {
+  #hotIssues {
+    margin-top: 20rem;
+  }
+  #studentsHighlight {
+    margin-top: 20rem;
+  }
+  #mirror {
+    margin-top: 45rem;
+  }
+}
+@media only screen and (min-width: 320px) {
+  #hotIssues {
+    margin-top: 25rem;
+  }
+  #studentsHighlight {
+    margin-top: 25rem;
+  }
+  #mirror {
+    
+    margin-top: 60rem;
+  }
+}
+@media only screen and (min-width: 280px) {
+  #hotIssues {
+    margin-top: 28rem;
+  }
+  #studentsHighlight {
+    margin-top: 28rem;
+  }
+  #mirror {
+    height: auto;
+    margin-top: 55rem;
+  }
+}
+
+.typing {
+  position: flex;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+.typing::after{
+  right: -5px;
+  content: "";
+  position: relative;
+  width: 2px;
+  height: 85%;
+  border-right: 2px solid white;
+  animation: blink 0.5s infinite ease;
+}
+.navbar-nav > li > a:hover {
+  color: #aaa!important;
+  text-decoration: none;
+  border-bottom: 1px solid  #aaa;
+}
+.navbar-brand:hover{
+  color: #aaa!important;
+  text-decoration: none;
+}
+.containerImage {
+  transition: transform .2s; /* Animation */
+}
+.zoom {
+  
+  transition: transform .2s; /* Animation */
+}
+.zoom:hover{
+  transform: scale(1.05);
+
+}
+.containerImage:hover{
+  transform: scale(1.5);
+}
+.navbar-nav > .active > a {
+  color: black!important;
+  text-decoration: none;
+  border-bottom: 1px solid  black;
+}
+#contactContainer {
+    position: relative;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#myName {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 10px;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.aboutMe:hover{
+  background-color: rgba(0,0,0,0.5); 
+  color: black; 
+  border: 2px solid #aaa;
+
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.aboutMe {
+  color: white!important;
+  text-decoration: none;
+  border-bottom: 1px solid  #aaa;
+}
+.hotIssues {
+  color: white!important;
+  text-decoration: none;
+  border-bottom: 1px solid  #aaa;
+}
+.hotIssues:hover{
+  background-color: rgba(0,0,0,0.5); 
+  color: black; 
+  border: 2px solid #aaa;
+}
+.studentHL{
+  color: white!important;
+  text-decoration: none;
+  border-bottom: 1px solid  #aaa;
+}
+.studentHL:hover{
+  background-color: rgba(0,0,0,0.5); 
+  color: black; 
+  border: 2px solid #aaa;
+}
+.landingPage{
+  color: white!important;
+  text-decoration: none;
+  border-bottom: 1px solid  #aaa;
+}
+.landingPage:hover{
+  background-color: rgba(0,0,0,0.5); 
+  color: black; 
+  border: 2px solid #aaa;
+}
+
+#currentCareer {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  position: relative;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#imageResizing {
+  margin-bottom: 1.5rem;
+}
+#paragraphAboutMyself {
+  font-size: 1rem;
+  color:white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    text-transform:inherit;
+    font-weight: 200;
+    text-align: left; 
+    display:flex; flex-direction: column; 
+    align-items: center
+}
+#getInTouchAboutMe {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.firstContainer:hover{
+  color: #aaa!important;
+  text-decoration: none;
+
+}
+@keyframes blink {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+h5, h3, h6{
+  color: white;
+}
+h5, h6 {
+  font-weight: 200;
+}
+
+h5 {
+  font-size: 2.5rem;
+}
+h6 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #aaa;
+}
+
+@media only screen and(min-width: 1200px) {
+  h5 {
+    font-size: 3rem;
+  }
+  h6 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  #imageResizing{
+    background-attachment: fixed;
+  }
+}
+@media only screen and(max-width: 800px) {
+  .intro {
+    padding: 0 1rem;
+  }
+
+  h5 {
+    font-size: 3rem;
+  }
+  h6 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  #imageResizing{
+    background-attachment: fixed;
+  }
+  #aboutMe {
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+  #hotIssues {
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+  #studentsHighlight {
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+  #mirror {
+    background-color: rgba(255,255,255,0.7);
+  position: relative;
+  height: 100px;
+  width: 100%;
+  padding: 20px 0px;
+    
+  } 
+}
+@media only screen and(max-width: 500px) {
+  .intro {
+    padding: 0 1rem;
+  }
+  h5 {
+    font-size: 2.5rem;
+  }
+  h6 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  #imageResizing{
+    background-attachment: fixed;
+  }
+  #mirror {
+    background-color: rgba(255,255,255,0.7);
+  position: relative;
+  height: 100px;
+  width: 100%;
+  padding: 20px 0px;
+  } 
+}
+#mirror {
+  background-color: rgba(255,255,255,0.7);
+  position: relative;
+  height: 21%;
+  width: 100%;
+  padding: 20px 0px;
+}
+.snsicons {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.snsicons ul{
+  margin-top: 50px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.snsicons ul li{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border-radius: 100%;
+  background-color: #aaaa;
+}
+.snsicons ul li a {
+  color: white;
+  font-size: 25px;  
+  display: block;
+}
+.snsicons ul li a i {
+  line-height: 50px;
+}
+.footer-bottom {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+}
+.footer-bottom p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  color: darkslateblue;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+}

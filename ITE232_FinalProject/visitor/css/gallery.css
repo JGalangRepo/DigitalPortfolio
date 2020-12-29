@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin-top: 70px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+    url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-031.jpg');
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .nav-item a {
+      position: relative;
+      color:white;
+      font-family: 'Roboto', sans-serif;    
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: bold;   
+  }
+  .navbar-brand {
+      position: relative;
+      color:white;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      letter-spacing: 1px;
+      font-weight: bolder;   
+      text-transform: uppercase;
+  }
+  .navbar-brand:hover{
+    color: #aaa!important;
+    text-decoration: none;
+  }
+  .navbar-nav > .active > a {
+    color: black!important;
+    text-decoration: none;
+    border-bottom: 1px solid  black;
+  }
+  .navbar-nav > li > a:hover {
+    color: #aaa!important;
+    text-decoration: none;
+    border-bottom: 1px solid  #aaa;
+  }
+#certificatesText {
+    padding-top: 70px;
+}
+#firstCertContainer {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 1fr;
+    gap: 10px;
+}
+#secondCertContainer {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 1fr;
+    gap: 16px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: center;
+}
+.img:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+.card-img-top:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+.zoom { 
+    width: 100%; 
+        transition: 0.2s all ease-in-out; 
+  }
+.zoom:hover{
+    transform: scale(1.1);
+}
+#certificatesText {
+    position: relative;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;   
+}
+#interestsTitle {
+    position: relative;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;   
+}
+.carousel-item{
+    height:450px;
+    width:100%;
+  }
+.carousel-item img{
+    width:100%;
+    height:100%;
+  }
+
+#mirror {
+    background-color: rgba(255,255,255,0.7);
+    position: relative;
+    height: 21%;
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .snsicons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .snsicons ul{
+    margin-top: 50px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  .snsicons ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 100%;
+    background-color: #aaaa;
+  }
+  .snsicons ul li a {
+    color: white;
+    font-size: 25px;  
+    display: block;
+  }
+  .snsicons ul li a i {
+    line-height: 50px;
+  }
+  .footer-bottom {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .footer-bottom p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    color: darkslateblue;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+  }
